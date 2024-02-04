@@ -1,0 +1,14 @@
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\bin\Debug\net8.0\Menu-Based.exe
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\bin\Debug\net8.0\Menu-Based.deps.json
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\bin\Debug\net8.0\Menu-Based.runtimeconfig.json
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\bin\Debug\net8.0\Menu-Based.dll
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\bin\Debug\net8.0\Menu-Based.pdb
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\obj\Debug\net8.0\Menu-Based.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\obj\Debug\net8.0\Menu-Based.AssemblyInfoInputs.cache
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\obj\Debug\net8.0\Menu-Based.AssemblyInfo.cs
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\obj\Debug\net8.0\Menu-Based.csproj.CoreCompileInputs.cache
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\obj\Debug\net8.0\Menu-Based.dll
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\obj\Debug\net8.0\refint\Menu-Based.dll
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\obj\Debug\net8.0\Menu-Based.pdb
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\obj\Debug\net8.0\Menu-Based.genruntimeconfig.cache
+C:\Users\tatha\Desktop\Code\C#\Menu-Based\obj\Debug\net8.0\ref\Menu-Based.dll

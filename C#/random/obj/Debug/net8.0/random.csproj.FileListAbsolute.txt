@@ -1,0 +1,14 @@
+C:\Users\tatha\Desktop\Code\C#\random\bin\Debug\net8.0\random.exe
+C:\Users\tatha\Desktop\Code\C#\random\bin\Debug\net8.0\random.deps.json
+C:\Users\tatha\Desktop\Code\C#\random\bin\Debug\net8.0\random.runtimeconfig.json
+C:\Users\tatha\Desktop\Code\C#\random\bin\Debug\net8.0\random.dll
+C:\Users\tatha\Desktop\Code\C#\random\bin\Debug\net8.0\random.pdb
+C:\Users\tatha\Desktop\Code\C#\random\obj\Debug\net8.0\random.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tatha\Desktop\Code\C#\random\obj\Debug\net8.0\random.AssemblyInfoInputs.cache
+C:\Users\tatha\Desktop\Code\C#\random\obj\Debug\net8.0\random.AssemblyInfo.cs
+C:\Users\tatha\Desktop\Code\C#\random\obj\Debug\net8.0\random.csproj.CoreCompileInputs.cache
+C:\Users\tatha\Desktop\Code\C#\random\obj\Debug\net8.0\random.dll
+C:\Users\tatha\Desktop\Code\C#\random\obj\Debug\net8.0\refint\random.dll
+C:\Users\tatha\Desktop\Code\C#\random\obj\Debug\net8.0\random.pdb
+C:\Users\tatha\Desktop\Code\C#\random\obj\Debug\net8.0\random.genruntimeconfig.cache
+C:\Users\tatha\Desktop\Code\C#\random\obj\Debug\net8.0\ref\random.dll

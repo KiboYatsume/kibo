@@ -1,0 +1,11 @@
+import requests as r
+import bs4 as b
+
+url = "https://geeksforgeeks.org"
+
+source = r.get(url)
+
+soup = b.BeautifulSoup(source.content,'html.parser')
+
+print(r)
+print(soup.title.text)

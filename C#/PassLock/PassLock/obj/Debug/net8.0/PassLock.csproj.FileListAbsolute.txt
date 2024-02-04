@@ -1,0 +1,14 @@
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\bin\Debug\net8.0\PassLock.exe
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\bin\Debug\net8.0\PassLock.deps.json
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\bin\Debug\net8.0\PassLock.runtimeconfig.json
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\bin\Debug\net8.0\PassLock.dll
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\bin\Debug\net8.0\PassLock.pdb
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\obj\Debug\net8.0\PassLock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\obj\Debug\net8.0\PassLock.AssemblyInfoInputs.cache
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\obj\Debug\net8.0\PassLock.AssemblyInfo.cs
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\obj\Debug\net8.0\PassLock.csproj.CoreCompileInputs.cache
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\obj\Debug\net8.0\PassLock.dll
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\obj\Debug\net8.0\refint\PassLock.dll
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\obj\Debug\net8.0\PassLock.pdb
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\obj\Debug\net8.0\PassLock.genruntimeconfig.cache
+C:\Users\tatha\Desktop\Code\C#\PassLock\PassLock\obj\Debug\net8.0\ref\PassLock.dll

@@ -1,0 +1,14 @@
+C:\Users\tatha\Desktop\Code\C#\condition\condition\bin\Debug\net8.0\condition.exe
+C:\Users\tatha\Desktop\Code\C#\condition\condition\bin\Debug\net8.0\condition.deps.json
+C:\Users\tatha\Desktop\Code\C#\condition\condition\bin\Debug\net8.0\condition.runtimeconfig.json
+C:\Users\tatha\Desktop\Code\C#\condition\condition\bin\Debug\net8.0\condition.dll
+C:\Users\tatha\Desktop\Code\C#\condition\condition\bin\Debug\net8.0\condition.pdb
+C:\Users\tatha\Desktop\Code\C#\condition\condition\obj\Debug\net8.0\condition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tatha\Desktop\Code\C#\condition\condition\obj\Debug\net8.0\condition.AssemblyInfoInputs.cache
+C:\Users\tatha\Desktop\Code\C#\condition\condition\obj\Debug\net8.0\condition.AssemblyInfo.cs
+C:\Users\tatha\Desktop\Code\C#\condition\condition\obj\Debug\net8.0\condition.csproj.CoreCompileInputs.cache
+C:\Users\tatha\Desktop\Code\C#\condition\condition\obj\Debug\net8.0\condition.dll
+C:\Users\tatha\Desktop\Code\C#\condition\condition\obj\Debug\net8.0\refint\condition.dll
+C:\Users\tatha\Desktop\Code\C#\condition\condition\obj\Debug\net8.0\condition.pdb
+C:\Users\tatha\Desktop\Code\C#\condition\condition\obj\Debug\net8.0\condition.genruntimeconfig.cache
+C:\Users\tatha\Desktop\Code\C#\condition\condition\obj\Debug\net8.0\ref\condition.dll

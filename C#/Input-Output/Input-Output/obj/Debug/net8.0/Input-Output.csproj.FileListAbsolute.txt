@@ -1,0 +1,14 @@
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\bin\Debug\net8.0\Input-Output.exe
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\bin\Debug\net8.0\Input-Output.deps.json
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\bin\Debug\net8.0\Input-Output.runtimeconfig.json
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\bin\Debug\net8.0\Input-Output.dll
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\bin\Debug\net8.0\Input-Output.pdb
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\obj\Debug\net8.0\Input-Output.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\obj\Debug\net8.0\Input-Output.AssemblyInfoInputs.cache
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\obj\Debug\net8.0\Input-Output.AssemblyInfo.cs
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\obj\Debug\net8.0\Input-Output.csproj.CoreCompileInputs.cache
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\obj\Debug\net8.0\Input-Output.dll
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\obj\Debug\net8.0\refint\Input-Output.dll
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\obj\Debug\net8.0\Input-Output.pdb
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\obj\Debug\net8.0\Input-Output.genruntimeconfig.cache
+C:\Users\tatha\Desktop\Code\C#\Input-Output\Input-Output\obj\Debug\net8.0\ref\Input-Output.dll
