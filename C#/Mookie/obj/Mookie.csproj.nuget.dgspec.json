@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tatha\\Desktop\\C#\\Mookie\\Mookie.csproj": {}
+    "C:\\Users\\tatha\\Desktop\\Code\\C#\\Mookie\\Mookie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tatha\\Desktop\\C#\\Mookie\\Mookie.csproj": {
+    "C:\\Users\\tatha\\Desktop\\Code\\C#\\Mookie\\Mookie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tatha\\Desktop\\C#\\Mookie\\Mookie.csproj",
+        "projectUniqueName": "C:\\Users\\tatha\\Desktop\\Code\\C#\\Mookie\\Mookie.csproj",
         "projectName": "Mookie",
-        "projectPath": "C:\\Users\\tatha\\Desktop\\C#\\Mookie\\Mookie.csproj",
+        "projectPath": "C:\\Users\\tatha\\Desktop\\Code\\C#\\Mookie\\Mookie.csproj",
         "packagesPath": "C:\\Users\\tatha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tatha\\Desktop\\C#\\Mookie\\obj\\",
+        "outputPath": "C:\\Users\\tatha\\Desktop\\Code\\C#\\Mookie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.59, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
