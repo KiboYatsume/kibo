@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OoEe9LtRbGxAb9qHJxEQiW3ylQHbbpGTKxjowrUoa8B7WRQ+4EG7WyCSn556IxYjooyJOo7gPQd56f67zJM+Zg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tatha\\Desktop\\Code\\C#\\Mookie\\Mookie.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tatha\\.nuget\\packages\\htmlagilitypack\\1.11.59\\htmlagilitypack.1.11.59.nupkg.sha512"
+  ],
+  "logs": []
+}
