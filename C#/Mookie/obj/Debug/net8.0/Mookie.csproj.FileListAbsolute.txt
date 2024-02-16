@@ -15,3 +15,4 @@ C:\Users\tatha\Desktop\Code\C#\Mookie\obj\Debug\net8.0\ref\Mookie.dll
 C:\Users\tatha\Desktop\Code\C#\Mookie\bin\Debug\net8.0\HtmlAgilityPack.dll
 C:\Users\tatha\Desktop\Code\C#\Mookie\obj\Debug\net8.0\Mookie.csproj.AssemblyReference.cache
 C:\Users\tatha\Desktop\Code\C#\Mookie\obj\Debug\net8.0\Mookie.csproj.CopyComplete
+C:\Users\tatha\Desktop\Code\C#\Mookie\bin\Debug\net8.0\Newtonsoft.Json.dll

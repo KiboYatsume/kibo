@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net;
+using Newtonsoft.Json;
 
 class Mookie
 {
@@ -42,6 +44,7 @@ class Mookie
             "I am a program, but sweet of you to ask still",
             "I am fine thanks for asking!"
         };
+
         List<string> thankyou_response = new List<string>
         {
             "np!",
@@ -50,8 +53,8 @@ class Mookie
             "Your Welcome",
             "Mention Not!"
         };
+
         if (userMessage.Contains("hello", StringComparison.OrdinalIgnoreCase) ||
-            userMessage.Contains("hi", StringComparison.OrdinalIgnoreCase) ||
             userMessage.Contains("yoohoo", StringComparison.OrdinalIgnoreCase) ||
             userMessage.Contains("hey", StringComparison.OrdinalIgnoreCase))
         {
@@ -74,22 +77,49 @@ class Mookie
         {
             return "Goodbye! Have a great day!";
         }
-        else if (userMessage.StartsWith("remember my ", StringComparison.OrdinalIgnoreCase))
+        else if (userMessage.Contains("thank you!", StringComparison.OrdinalIgnoreCase) ||
+                 userMessage.Contains("ty", StringComparison.OrdinalIgnoreCase) ||
+                 userMessage.Contains("tysm", StringComparison.OrdinalIgnoreCase) ||
+                 userMessage.Contains("thanks", StringComparison.OrdinalIgnoreCase))
         {
-            // Extract the information to remember from the user's message
-            string[] parts = userMessage.Split("my ", StringSplitOptions.RemoveEmptyEntries);
+            Random random = new Random();
+            int index = random.Next(thankyou_response.Count);
+            return thankyou_response[index];
+        }
+        else if (userMessage.StartsWith("i am ", StringComparison.OrdinalIgnoreCase))
+        {
+            string name = userMessage.Substring(5);
+            memory["name"] = name;
+            return $"Nice to meet you, {name}!";
+        }
+        else if (userMessage.StartsWith("my name is ", StringComparison.OrdinalIgnoreCase))
+        {
+            string name = userMessage.Substring(11);
+            memory["name"] = name;
+            return $"Nice to meet you, {name}!";
+
+        }
+        else if (userMessage.Contains("who are you", StringComparison.OrdinalIgnoreCase))
+        {
+            return "I am Mookie ChatBot";
+        }
+        else if (userMessage.Contains("Who is your creator", StringComparison.OrdinalIgnoreCase))
+        {
+            return "Kibo";
+        }
+        else if (userMessage.StartsWith("i like ", StringComparison.OrdinalIgnoreCase))
+        {
+            string[] parts = userMessage.Split(" like ");
             if (parts.Length == 2)
             {
-                string[] info = parts[1].Split(" is ");
-                if (info.Length == 2)
-                {
-                    string key = info[0].Trim();
-                    string value = info[1].Trim();
-                    memory[key] = value;
-                    return $"Okay, I'll remember that {key} is {value}.";
-                }
+                string item = parts[1].Trim();
+                memory["preference"] = item;
+                return $"Noted! You like {item}.";
             }
-            return "Sorry, I couldn't understand the information to remember.";
+            else
+            {
+                return "Sorry, I couldn't understand your preference.";
+            }
         }
         else if (userMessage.Contains("who am i", StringComparison.OrdinalIgnoreCase))
         {
@@ -102,15 +132,37 @@ class Mookie
                 return "I'm sorry, I don't remember your name.";
             }
         }
-
-        else if (userMessage.Contains("thank you!", StringComparison.OrdinalIgnoreCase) ||
-                 userMessage.Contains("ty", StringComparison.OrdinalIgnoreCase) ||
-                 userMessage.Contains("tysm", StringComparison.OrdinalIgnoreCase) ||
-                 userMessage.Contains("thanks", StringComparison.OrdinalIgnoreCase))
+        else if (userMessage.Contains("what is my name", StringComparison.OrdinalIgnoreCase))
         {
-            Random random = new Random();
-            int index = random.Next(thankyou_response.Count);
-            return thankyou_response[index];
+            if (memory.ContainsKey("name"))
+            {
+                return $"Your name is {memory["name"]}!";
+            }
+            else
+            {
+                return "I'm sorry, I don't remember your name.";
+            }
+        }
+        else if (userMessage.Contains("what do i like", StringComparison.OrdinalIgnoreCase))
+        {
+            if (memory.ContainsKey("preference"))
+            {
+                return $"You like {memory["preference"]}!";
+            }
+            else
+            {
+                return "I'm sorry, I don't remember your preference.";
+            }
+        }
+        else if (userMessage.Contains("what do you think about me", StringComparison.OrdinalIgnoreCase))
+        {
+            return "like everyone says you are the most feminine boy alive!";
+        }
+        else if (userMessage.StartsWith("tell me about ", StringComparison.OrdinalIgnoreCase))
+        {
+            string topic = ExtractTopic(userMessage);
+            string summary = GetSummary(topic);
+            return summary;
         }
         else
         {
@@ -157,6 +209,33 @@ class Mookie
             {
                 return "Invalid input format!";
             }
+        }
+    }
+
+    static string ExtractTopic(string userInput)
+    {
+        string[] words = userInput.Split(' ');
+        string topic = string.Join(' ', words[3..]); // Get all words after the fourth one
+        return topic;
+    }
+
+    static string GetSummary(string topic)
+    {
+        string apiUrl = $"https://en.wikipedia.org/api/rest_v1/page/summary/{topic}";
+
+        try
+        {
+            using (WebClient client = new WebClient())
+            {
+                string json = client.DownloadString(apiUrl);
+                dynamic data = JsonConvert.DeserializeObject(json);
+                return data.extract;
+            }
+        }
+        catch (WebException ex)
+        {
+            // Handle error (e.g., topic not found)
+            return "Error: Topic not found.";
         }
     }
 }

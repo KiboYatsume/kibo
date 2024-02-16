@@ -1,0 +1,17 @@
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\bin\Debug\net8.0\Web-Searching.exe
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\bin\Debug\net8.0\Web-Searching.deps.json
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\bin\Debug\net8.0\Web-Searching.runtimeconfig.json
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\bin\Debug\net8.0\Web-Searching.dll
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\bin\Debug\net8.0\Web-Searching.pdb
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\obj\Debug\net8.0\Web-Searching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\obj\Debug\net8.0\Web-Searching.AssemblyInfoInputs.cache
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\obj\Debug\net8.0\Web-Searching.AssemblyInfo.cs
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\obj\Debug\net8.0\Web-Searching.csproj.CoreCompileInputs.cache
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\obj\Debug\net8.0\Web-Searching.dll
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\obj\Debug\net8.0\refint\Web-Searching.dll
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\obj\Debug\net8.0\Web-Searching.pdb
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\obj\Debug\net8.0\Web-Searching.genruntimeconfig.cache
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\obj\Debug\net8.0\ref\Web-Searching.dll
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\obj\Debug\net8.0\Web-Searching.csproj.AssemblyReference.cache
+C:\Users\tatha\Desktop\Code\C#\Web-Searching\obj\Debug\net8.0\Web-Searching.csproj.CopyComplete
