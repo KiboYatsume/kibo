@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "I41Tw7J5xlrgkBOCr5/rVJAK9z+jVP1zRQAATVKUuuPOmq98oxB2CpYKmUkf/i6NIylUviNYKMKgYysgNOlotQ==",
@@ -8,4 +9,15 @@
     "C:\\Users\\tatha\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "OoEe9LtRbGxAb9qHJxEQiW3ylQHbbpGTKxjowrUoa8B7WRQ+4EG7WyCSn556IxYjooyJOo7gPQd56f67zJM+Zg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tatha\\Desktop\\Code\\C#\\Mookie\\Mookie.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tatha\\.nuget\\packages\\htmlagilitypack\\1.11.59\\htmlagilitypack.1.11.59.nupkg.sha512"
+  ],
+  "logs": []
+>>>>>>> 86a7d7b81b1e75610b81bc22780363de335e357c
 }
