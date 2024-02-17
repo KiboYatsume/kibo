@@ -170,7 +170,7 @@ class Mookie
         }
         else if (userMessage.Contains("what do you think about me", StringComparison.OrdinalIgnoreCase))
         {
-            return "like everyone says you are the most feminine boy alive!";
+            return "you are a human , dummy!";
         }
         else if (userMessage.StartsWith("tell me about ", StringComparison.OrdinalIgnoreCase))
         {
