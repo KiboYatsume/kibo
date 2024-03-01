@@ -148,6 +148,10 @@ def User_Input_Handler():
         quit()
     elif any(phrase in query.lower() for phrase in ['how are you']):
         speak("I am doing fine"+Owner+"how are you ?")
+    elif any(phrase in query.lower() for phrase in ['master control']):
+        speak("Master Control Unlocked!")
+    elif any(phrase in query.lower() for phrase in ['self destruct' or'selfdestruct']):
+        master_acesses()
     elif any(phrase in query.lower() for phrase in ['i am doing fantastic' or 'i am fine']):
         speak("Wonderful to know sir")
     elif any(phrase in query.lower() for phrase in ['execute order 66']):
@@ -218,6 +222,42 @@ def User_Input_Handler():
                 english_text = r.recognize_google(audio, language='en-IN')
                 hindi_translation = translator.translate(english_text, src='en', dest='hi')
                 speak(hindi_translation.text, language='hi')
+def master_acesses():
+    while True:
+        def input_checker():
+            r = sr.Recognizer()
+            with sr.Microphone() as source:
+                print("Listening...")
+                audio = r.listen(source)  
+                try:
+                    print("Recognizing...")
+                    query = r.recognize_google(audio, language='en-in')
+                    print(f"user said {query}\n")
+                    return query
+                except sr.UnknownValueError:
+                    print("Could not understand audio")
+                    return None
+                except sr.RequestError as e:
+                    print(f"Could not request results from Google Speech Recognition service; {e}")
+                    return None
+        speak("Master Pass required , please state the code")
+        query = input_checker()
+        if "grant permission red" in query.lower():
+            speak("Master,"+Owner+" identified")
+            speak("self destruct activated")
+            speak("self destructing in t minus ten seconds")
+            speak("ten")
+            speak("nine")
+            speak("eight")
+            speak("seven")
+            speak("six")
+            speak("five")
+            speak("four")
+            speak("three")
+            speak("two")
+            speak("one")
+            speak("KAABOOMB")
+            quit()
 def voice_trigger():
     while True:
         def input_checker():
