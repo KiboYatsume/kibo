@@ -16,8 +16,8 @@ required_modules = [
     'mysql-connector-python', '--update futures', 'matplotlib', 'pygame', '--upgrade --force-reinstall --no-cache-dir PyDictionary',
     'gTTS', 'pyjokes', 'subprocess', 'speech_recognition', 'pyttsx3', 'wikipedia', 'webbrowser', 'smtplib','requests']
 
-for module in required_modules:
-    install_module(module)
+#for module in required_modules:
+    #install_module(module)
 import smtplib
 import sys
 import subprocess
@@ -52,7 +52,7 @@ import matplotlib.pyplot as plt
 import tkinter as tf
 from tkinter import messagebox,simpledialog
 from tkinter import *
-from PyDictionary import PyDictionary
+#from PyDictionary import PyDictionary
 import pygame
 import time
 Owner = "kibo"
