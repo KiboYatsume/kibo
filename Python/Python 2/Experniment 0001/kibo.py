@@ -13,11 +13,11 @@ def install_module(module_name):
             print(f"Error installing {module_name}: {e}")
 required_modules = [
     'sympy', '--upgrade setuptools', 'tk', 'numpy', 'googletrans==4.0.0-rc1', 'pymysql', 'pycryptodome',
-    'mysql-connector-python', '--update futures', 'matplotlib', 'pygame', '--upgrade --force-reinstall --no-cache-dir PyDictionary',
+    'mysql-connect5or-python', '--update futures', 'matplotlib', 'pygame', '--upgrade --force-reinstall --no-cache-dir PyDictionary',
     'gTTS', 'pyjokes', 'subprocess', 'speech_recognition', 'pyttsx3', 'wikipedia', 'webbrowser', 'smtplib','requests']
 
-#for module in required_modules:
-    #install_module(module)
+for module in required_modules:
+    install_module(module)
 import smtplib
 import sys
 import subprocess
